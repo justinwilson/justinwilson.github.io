@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'cubanoregular';
+    src: url('cubano-regular-webfont.eot');
+    src: url('cubano-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cubano-regular-webfont.woff') format('woff'),
+         url('cubano-regular-webfont.ttf') format('truetype'),
+         url('cubano-regular-webfont.svg#cubanoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {background: url('../img/church.png'); text-align: center; margin: 0 auto; line-height: normal;}
+#biden{position: absolute; bottom: 0px; left: 30px}
+#ryan {position: absolute; bottom: 0px; right: 30px;}
+h1 {text-shadow: 1px 1px 0 #e1e1e1, 4px 4px 0 #6384B8; font-size: 5em; font-family: 'cubanoregular'; color: #555; line-height: 1em;}
+h2 span {font-size: 1.5em;}
+h2 {color: #D46363; text-shadow: 1px 1px 2px #777; font-size: 3em; font-family: 'cubanoregular'; line-height: 1em;}
+h3 {text-shadow: 1px 1px 2px #777; font-family: 'cubanoregular'; font-style: oblique; font-size: 3em; color: #6384B8; }
+::selection {text-shadow: 1px 1px 0 white, 4px 4px 0 #555; color: #6384B8; background-color: #333;}
+a {color: #555; text-decoration: none;}
+p {margin-top: 10em; font-family: Helvetica, Arial, sans-serif; color: #777; font-size: 0.6em;}
+img {max-width: 100%;}

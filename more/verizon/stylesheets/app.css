@@ -1,0 +1,62 @@
+/* ------------------------------
+custom styles 
+------------------------------ */
+
+li {font-size: 12px;}
+.title {color: white;}
+.title.good, .good {background:#ffa500; color: white;}
+.title.better, .better {background:#ff5d1b; color: white;}
+.title.best, .best {background:#ff0000; color: white;}
+
+
+.tp-banner{background: white; margin-bottom: 20px;}
+
+ul.side-nav {
+-webkit-box-shadow: 4px 0px 4px rgba(50, 50, 50, 0.5);
+-moz-box-shadow: 4px 0px 4px rgba(50, 50, 50, 0.5);
+box-shadow: 4px 0px 4px rgba(50, 50, 50, 0.5);
+padding-left: 20px;
+text-align: center;
+}
+
+.services-selection{background: #eee; padding: 0 6px;}
+
+ul.plans-header li{list-style: none; display: inline;}
+ul.plans-header a{color: blue;}
+ul.plans-header h3{margin: 0 10px 0 0; display: inline;}
+li.bullet-item h5 {margin: 0 6px 4px 0; display: inline;}
+.pricing-table li {padding: 5px;}
+.pricing-table .bullet-item {font-size: 12px; height: 110px; padding: 6px;}
+ul.side-nav li a {display: inline;}
+h2 > sup {font-size: 12px;}
+
+/*colors */
+a { color: #d02330;}
+a:hover { color: #ba1f2b; }
+a:focus { color: #d02330;}
+
+.button { width: auto; background: #d02330; border: 1px solid #8f1821; -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; -webkit-transition: background-color 0.15s ease-in-out; -moz-transition: background-color 0.15s ease-in-out; -o-transition: background-color 0.15s ease-in-out; transition: background-color 0.15s ease-in-out; /* Hovers */ /* Sizes */ /* Colors */ /* Radii */ /* Layout */ /* Disabled ---------- */ }
+.button:hover {background-color: #a41c26; }
+
+.button:active { -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; }
+
+.button:focus { -webkit-box-shadow: 0 0 4px #d02330, 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 0 4px #d02330, 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 0 4px #d02330, 0 1px 0 rgba(255, 255, 255, 0.5) inset; color: white; }
+
+.nav-bar > li.active { background: #d02330; border-color: #a41c26; }
+.nav-bar > li.active > a { color: white; cursor: default; }
+.nav-bar > li.active:hover { background: #d02330; cursor: default; }
+
+
+/*media queries */
+
+@media only screen and (min-width: 768px) { .tv-bundle{width: 45px; height: 20px;} }
+
+@media only screen and (max-width: 768px) {
+.tv-bundle{width: 95px; height: 40px; }
+ul.pricing-table .bullet-item {padding: 3px; height: 90px;} 
+h1, h2, h3, h4, h5, h6{margin: 3px;}
+.bullet-item > img{max-width: 60%;}
+ul.plans-header li h3, li.bullet-item h5{display: block;}
+
+}
+
