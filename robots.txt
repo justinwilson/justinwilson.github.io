@@ -5,3 +5,4 @@ User-agent: *
 Disallow: /doc/*
 Disallow: /fizzz
 Disallow: /styleguide-test
+Disallow: /code-challenge
