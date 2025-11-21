@@ -376,6 +376,8 @@ h2.section-title {
   margin-bottom: 1.5rem
 }
 #services .work-link-row ul {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   text-align: center
 }
