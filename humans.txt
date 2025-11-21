@@ -1,5 +1,5 @@
 /* SITE */
-  Design and devlopment: Justin Wilson
+  Design and devlopment: Justin J Wilson
   Standards: HTML5, CSS3
-  Components: jQuery, Bootstrap, Modernizr
-  Software: Sublime Text, Illustrator/Sketch, Git
+  Components: javascript
+  Software: Sublime Text, Illustrator, Git
