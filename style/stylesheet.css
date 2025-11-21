@@ -373,14 +373,17 @@ h2.section-title {
   font-size: 0.9rem
 }
 #services .work-link-row {
-  text-align: center;
   margin-bottom: 1.5rem
+}
+#services .work-link-row ul {
+  align-items: center;
+  text-align: center
 }
 #services .work-link-row a {
   font-weight: bold;
   color: #287170;
-  display: flex;
-  justify-content: center
+  justify-content: center;
+  margin: 1em 0
 }
 #services .work-link-row a svg.icon {
   width: 18px;
@@ -583,9 +586,9 @@ footer a svg.icon {
     right: -10px
   }
   #intro .button-row button {
-    width: 70%;
+    width: 90%;
     font-size: 1rem;
-    padding: 1rem;
+    padding: 1.2rem;
     gap: 1em
   }
   #intro .button-row {
