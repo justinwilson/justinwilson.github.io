@@ -222,7 +222,7 @@ nav.scrolled #hamburger div {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  max-width: 960px;
+  max-width: 1020px;
   margin: 0 auto;
   padding: 1rem
 }
@@ -330,7 +330,7 @@ h2.section-title {
 /* Services Section */
 #services {
   padding: 3rem 1rem 3rem;
-  max-width: 960px;
+  max-width: 1020px;
   margin: 0 auto 5rem
 }
 #services .cards {
@@ -424,7 +424,7 @@ h2.section-title {
   /*overflow: hidden;*/
 }
 #contact_about .content {
-  max-width: 960px;
+  max-width: 1020px;
   margin: 3em auto 4rem;
   background: #287170;
   padding: 2em
